@@ -8,22 +8,12 @@ menu:
     归档: /archives/ || icon-guidang1 || faa-tada
     标签: /tags/ || icon-sekuaibiaoqian || faa-tada
     分类: /categories/ || icon-fenlei || faa-tada
-  休闲 || icon-pinweishenghuo || faa-tada || hide:
-    八音盒: /life/music/ ||icon-yinle || faa-tada
-    影院: /life/movies/ ||icon-dianying1 || faa-tada
-    游戏: /life/games/ || icon-youxishoubing || faa-tada
-  八宝箱 || icon-xiangzi || faa-tada || hide:
-    画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
-    动画: /box/animation/ || icon-nvwumao || faa-tada
-    网址导航: /box/nav/ || icon-zhifengche || faa-tada
   社交 || icon-shejiaoxinxi || faa-tada || hide:
-    朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
     留言板: /comments/ || icon-liuyan || faa-tada
     友人帐: /social/link/ || icon-lianjie || faa-tada
   网站 || icon-wangye || faa-tada || hide:
     网站统计: /site/census/ || icon--tongjibiao || faa-tada
     文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
-    旧时光: /site/time/ || icon-xianxingshalou || faa-tada
   个人 || icon-maoliang || faa-tada || hide:
     唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
     恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
@@ -51,12 +41,12 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # Github: https://github.com/fomalhaut1998 || icon-github || faa-tada
-  微信: /assets/QRCode.jpg || icon-weixin || faa-tada
-  QQ: https://res.abeim.cn/api/qq/?qq=1174008660 || icon-QQ || faa-tada
-  B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
-  QQ邮箱: mailto:1174008660@qq.com || icon-youxiang || faa-tada
-  力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
+  # Github: https://github.com/moshiqiqian || icon-github || faa-tada
+  # 微信: /assets/QRCode.jpg || icon-weixin || faa-tada
+  # QQ: https://res.abeim.cn/api/qq/?qq=1174008660 || icon-QQ || faa-tada
+  # B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
+  # QQ邮箱: mailto:1174008660@qq.com || icon-youxiang || faa-tada
+  # 力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
   # 微博: https://weibo.com/u/6473136435 || icon-weibo || faa-tada
   # 知乎: https://www.zhihu.com/people/liang-jia-chao-19 || icon-shejiaotubiao-10 || faa-tada
   # RSS: /atom.xml || icon-RSS || faa-tada
@@ -113,7 +103,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
+  img: https://pic1.imgdb.cn/item/67f21c390ba3d5a1d7ee963b.jpg
   effect: false
 
 # Disable all banner image
@@ -156,7 +146,9 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://source.fomal.cc/img/default_cover_14.webp
+    - https://pic1.imgdb.cn/item/67f244110ba3d5a1d7eeab4b.jpg
+    - https://pic1.imgdb.cn/item/67f220520ba3d5a1d7ee99f2.jpg
+    - https://pic1.imgdb.cn/item/67f2204f0ba3d5a1d7ee99ee.jpg
     # ...
 
 # A simple 404 page
@@ -164,18 +156,18 @@ error_404:
   enable: true
   subtitle: "此页面不存在哦٩͡[๏̯͡๏]"
   # https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
-  background: /assets/404_1.jpg
+  background: 
 
 post_meta:
   page: # Home Page
     date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
-    date_format: relative # date/relative 顯示日期還是相對日期
+    date_format: data # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
     tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
-    date_format: relative # date/relative 顯示日期還是相對日期
+    date_format: data # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
     label: true # true or false 顯示描述性文字
@@ -224,24 +216,24 @@ reward:
   enable: true
   coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
   QR_code:
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
+    - img: /picture/weixin.jpg
       link:
       text: 微信
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
+    - img: /picture/zhifubao.jpg
       link:
       text: 支付宝
 
-# Post edit
-# Easily browse and edit blog source code online.
+# Post edit (文章編輯)
+# Easily browse and edit blog source code online. 
 post_edit:
   enable: false
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url:
 
-# Related Articles
+# Related Articles (相關文章)
 related_post:
-  enable: true
+  enable: false
   limit: 6 # Number of posts displayed
   date_type: updated # or created or updated 文章日期顯示創建日或者更新日
 
@@ -253,7 +245,7 @@ photofigcaption: false
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
-post_pagination: 1
+post_pagination: 2
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
@@ -402,7 +394,7 @@ remark42:
   siteId: # Your Site ID
   option:
 
-# Chat Services
+# Chat Services 
 # --------------------------------------
 
 # Chat Button [recommend]
@@ -447,7 +439,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2022
+    since: 2025
   custom_text:
   copyright: false # Copyright of theme and framework
 
@@ -543,7 +535,7 @@ tag_ui: # 留空或 index
 # "#e4f4f6" "#efefef"
 background:
   #【必选】默认背景 
-  default: var(--default-bg)
+  default: var(https://pic1.imgdb.cn/item/67f2494f0ba3d5a1d7eeaf01.jpg)
   #【可选】PC端夜间模式背景 
   darkmode: var(--darkmode-bg)
   #【可选】移动端日间默认背景 

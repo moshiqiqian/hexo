@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fomalhaut🥝
+title: moshiqiqian
 subtitle: 
-description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut'
-author: Fomalhaut🥝
+description: 'moshiqiqian的个人博客'
+keywords: ''
+author: moshiqiqian
 language: zh-CN
 timezone: ''
 
@@ -18,7 +18,7 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.fomal.cc/
+url: https://moshiqiqian.github.io
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -123,9 +123,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repository:  # 这里写上你的Github地址
-    branch: main
+  type: git
+  repository: git@github.com:moshiqiqian/moshiqiqian.github.io.git
+  branch: main
   # - type: baidu_url_submitter
   # - type: git
   #   #repo改为repo: git@域名:/var/repo/hexo.git
