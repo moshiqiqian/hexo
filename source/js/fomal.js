@@ -674,8 +674,8 @@ if (document.body.clientWidth > 992) {
         zoom: 0.9,
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
-        nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
-        hoverMsg: "春天啦~",
+        nekoImg: "/picture/小埋.png",
+        hoverMsg: "嗝~~",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
@@ -1321,11 +1321,11 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '👀跑哪里去了~';
+    document.title = '山重水复疑无路';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '🐖抓到你啦～';
+    document.title = '柳暗花明又一村';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
@@ -3174,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic1.imgdb.cn/item/67f2494f0ba3d5a1d7eeaf01.jpg);
-    --darkmode-bg:url(https://pic1.imgdb.cn/item/67f2494f0ba3d5a1d7eeaf01.jpg);
-    --mobileday-bg: url(https://pic1.imgdb.cn/item/67f2494f0ba3d5a1d7eeaf01.jpg);
-    --mobilenight-bg: url(https://pic1.imgdb.cn/item/67f2494f0ba3d5a1d7eeaf01.jpg);
+    --default-bg: url(/picture/封面top.jpg);
+    --darkmode-bg:url(/picture/封面top.jpg);
+    --mobileday-bg: url(/picture/封面top.jpg);
+    --mobilenight-bg: url(/picture/封面top.jpg);
   }`;
 }
 // 切换背景主函数

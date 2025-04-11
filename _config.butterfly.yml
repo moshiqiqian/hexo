@@ -103,7 +103,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: https://pic1.imgdb.cn/item/67f21c390ba3d5a1d7ee963b.jpg
+  img: /picture/头像.jpg
   effect: false
 
 # Disable all banner image
@@ -154,9 +154,9 @@ cover:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: "此页面不存在哦٩͡[๏̯͡๏]"
+  subtitle: "此页面不存在"
   # https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
-  background: 
+  background: /picture/404.jpg
 
 post_meta:
   page: # Home Page
@@ -371,10 +371,10 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: 
-  region:
-  visitor: false
-  option:
+  envId: https://twikoo-teal-mu.vercel.app/
+  region: 
+  visitor: true
+  option: 
 
 # Giscus
 # https://giscus.app/
@@ -1084,7 +1084,7 @@ envelope_comment:
     comments: true
 
 # 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
-flink_style: volantis # butterfly | volantis | flexcard
+flink_style: flexcard # butterfly | volantis | flexcard
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
